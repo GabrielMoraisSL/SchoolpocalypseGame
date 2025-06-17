@@ -1,4 +1,5 @@
 # Schoolpocalypse
+
 Schoolpocalypse is an action-survival game set inside a college on the brink of chaos. After releasing the grades for the latest exam, a professor becomes the main target of a student uprising. Outraged by the results, the students arm themselves with whatever they can find — books, pencils, and even laptops — and embark on a relentless chase through the campus hallways.
 
 Without understanding how things spiraled out of control so quickly, the professor embarks on a desperate escape, crossing various college environments — classrooms, courtyards, laboratories, and the parking lot. Dodging projectiles thrown by the enraged students, he remains determined in his mission: to reach the server room and format the system to erase all grades and, hopefully, restore order.
@@ -7,124 +8,93 @@ But the real twist comes after formatting: even with all records erased, the pro
 
 Developed by third-semester Software Engineering students, Schoolpocalypse is a fast-paced satire of academic life, where exams can be deadly and the only way out is to run... or to format.
 
------
+---
 
-## Technologies Used
+## 🚀 Technologies Used
 
-  - **Node.js**
-  - **Vue.js**
-  - **Vite** (for a faster development environment)
+- **Vue.js**
+- **Vite**
+- **JavaScript**
+- **Node.js**
 
------
+---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
- 📂src/
-   📂components/
-     📂buttons/
-       📄ButtonCompletes.jsx
-       📄ButtonTasks.jsx
-     📂input/
-       📄Input.jsx
-     📂state/
-       📄store.js
-     📂title/
-       📄Title.jsx
-     📄AddTasks.jsx
-     📄Completes.jsx
-     📄Tasks.jsx
-   📂pages/
-     📄TaskPage.jsx
-   📄App.css
-   📄App.jsx
-   📄index.css
-   📄main.jsx
+📂src/
+ ┣ 📂assets/
+ ┣ 📂components/
+ ┃ ┗ 📄GameCanvas.vue
+ ┣ 📂utils/
+ ┣ 📄App.vue
+ ┣ 📄main.js
+ ┣ 📄style.css
+📄index.html
+📄vite.config.js
+📄package.json
+📄README.md
+📄LICENSE
 ```
 
------
+---
 
-## Prerequisites
+## ✅ Prerequisites
 
-Before you begin, ensure you have the following installed on your machine:
+Ensure you have the following installed:
 
-1.  **Visual Studio Code** (recommended code editor) `https://code.visualstudio.com`
-2.  **Node.js** `https://nodejs.org/`
-3.  **Git** `https://git-scm.com/downloads`
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- [Visual Studio Code](https://code.visualstudio.com/) (optional, but recommended)
 
------
+---
 
-## How to Install and Run
+## 🛠️ How to Run Locally
 
-Open Visual Studio Code, then press `Ctrl + J` and follow the instructions in your terminal:
+Abra o terminal e siga os passos:
 
-1.  Clone this repository:
+```bash
+# Clone o repositório
+git clone <URL-do-repositório>
 
-    ```bash
-    git clone https://github.com/GabrielMoraisSL/ToDoList-Projeto.git
-    ```
+# Acesse o diretório
+cd schoolpocalypse
 
-2.  Access the project directory:
+# Instale as dependências
+npm install
 
-    ```bash
-    cd ToDoList-Projeto
-    ```
+# Rode a aplicação
+npm run dev
+```
 
-3.  Install dependencies:
+A aplicação será acessível em `http://localhost:5173/`
 
-    ```bash
-    npm install
-    ```
+---
 
-4.  Run the project:
+## 🎮 Features
 
-    ```bash
-    npm run dev
-    ```
+- Fases com aumento progressivo de dificuldade
+- Jogabilidade estilo bullet hell
+- Mecânica de sobrevivência e esquiva
+- Sistema de mudança de fase automática
+- Animações e trilha sonora ambiente
 
-The project will be available at `http://localhost:5173/` (Vite's default port).
+---
 
------
+## 📜 License
 
-## Code Structure
+This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](./LICENSE) file for details.
 
-### Main Components
+---
 
-### Structural Components
+## 🤝 Contributions
 
-These components complement the main ones for their functionality, such as:
+Contributions are welcome!
 
-  - `ButtonCompletes.jsx` and `ButtonTasks.jsx`: Manage button functionality.
-  - `Input.jsx`: Manages input functionality.
-  - `store.js`: Specific to Zustand, it creates a hook that manages the global state of the application. It defines functions to add, delete, and move tasks between lists, ensuring the state is updated correctly.
-  - `Title.jsx`: Manages title functionality.
+1. Fork o repositório
+2. Crie uma branch (`git checkout -b minha-feature`)
+3. Faça o commit das mudanças (`git commit -m 'feat: nova funcionalidade'`)
+4. Faça o push para sua branch (`git push origin minha-feature`)
+5. Abra um Pull Request
 
------
-
-## Features
-
-  - **Add Task**: Users can add a new task by providing a title and description.
-  - **Move Task to Completed**: Users can move a task to the completed tasks list.
-  - **Move Task to Pending**: Users can move a completed task back to the pending tasks list.
-  - **Delete Task**: Users can delete tasks from both the pending and completed lists.
-  - **View Description**: Users can view the task description from both the pending and completed lists.
-
------
-
-## License
-
-This project is licensed under the [MIT License](https://www.google.com/search?q=LICENSE).
-
------
-
-## Contributions
-
-Contributions are welcome\! To contribute:
-
-1.  Fork the repository.
-2.  Create a new branch for your feature (`git checkout -b my-feature`).
-3.  Commit your changes (`git commit -m 'Adds new feature'`).
-4.  Push to the branch (`git push origin my-feature`).
-5.  Open a Pull Request.
-
------
+---
