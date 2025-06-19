@@ -25,11 +25,22 @@ Developed by third-semester Software Engineering students, Schoolpocalypse is a 
 📂src/
  ┣ 📂assets/
  ┣ 📂components/
- ┃ ┗ 📄GameCanvas.vue
+ ┃ ┣ 📄creditsScreen.vue
+ ┃ ┣ 📄cutScenes.vue
+ ┃ ┣ 📄gameHUD.vue
+ ┃ ┣ 📄gameOverScreen.vue
+ ┃ ┣ 📄mainMenu.vue
+ ┃ ┣ 📄optionsScreen.vue
+ ┃ ┣ 📄prologue.vue
+ ┃ ┣ 📄sideMenu.vue
+ ┃ ┗ 📄winScreen.vue
+ ┣ 📂ui/
  ┣ 📂utils/
  ┣ 📄App.vue
+ ┣ 📄index.vue
  ┣ 📄main.js
  ┣ 📄style.css
+ ┣ 📄useState.js
 📄index.html
 📄vite.config.js
 📄package.json
